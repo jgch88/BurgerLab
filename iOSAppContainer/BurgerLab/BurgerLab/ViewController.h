@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  ViewController.h
 //  BurgerLab
 //
 //  Created by JUSTIN GOH on 15/12/19.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface ViewController : UIViewController
 
 
 @end

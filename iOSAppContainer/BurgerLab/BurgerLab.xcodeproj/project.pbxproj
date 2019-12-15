@@ -7,35 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E09D74CE23A616A7008F3E92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D74CD23A616A7008F3E92 /* AppDelegate.m */; };
-		E09D74D123A616A7008F3E92 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D74D023A616A7008F3E92 /* SceneDelegate.m */; };
-		E09D74D423A616A7008F3E92 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D74D323A616A7008F3E92 /* FirstViewController.m */; };
-		E09D74D723A616A7008F3E92 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D74D623A616A7008F3E92 /* SecondViewController.m */; };
-		E09D74DA23A616A7008F3E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09D74D823A616A7008F3E92 /* Main.storyboard */; };
-		E09D74DC23A616A8008F3E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09D74DB23A616A8008F3E92 /* Assets.xcassets */; };
-		E09D74DF23A616A8008F3E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09D74DD23A616A8008F3E92 /* LaunchScreen.storyboard */; };
-		E09D74E223A616A8008F3E92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D74E123A616A8008F3E92 /* main.m */; };
+		E09D74F923A61DC0008F3E92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D74F823A61DC0008F3E92 /* AppDelegate.m */; };
+		E09D74FC23A61DC0008F3E92 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D74FB23A61DC0008F3E92 /* SceneDelegate.m */; };
+		E09D74FF23A61DC0008F3E92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D74FE23A61DC0008F3E92 /* ViewController.m */; };
+		E09D750223A61DC0008F3E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09D750023A61DC0008F3E92 /* Main.storyboard */; };
+		E09D750423A61DC1008F3E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09D750323A61DC1008F3E92 /* Assets.xcassets */; };
+		E09D750723A61DC1008F3E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09D750523A61DC1008F3E92 /* LaunchScreen.storyboard */; };
+		E09D750A23A61DC1008F3E92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D750923A61DC1008F3E92 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E09D74C923A616A7008F3E92 /* BurgerLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E09D74CC23A616A7008F3E92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E09D74CD23A616A7008F3E92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E09D74CF23A616A7008F3E92 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		E09D74D023A616A7008F3E92 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		E09D74D223A616A7008F3E92 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		E09D74D323A616A7008F3E92 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		E09D74D523A616A7008F3E92 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		E09D74D623A616A7008F3E92 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		E09D74D923A616A7008F3E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E09D74DB23A616A8008F3E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E09D74DE23A616A8008F3E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E09D74E023A616A8008F3E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E09D74E123A616A8008F3E92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E09D74F423A61DC0008F3E92 /* BurgerLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09D74F723A61DC0008F3E92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E09D74F823A61DC0008F3E92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E09D74FA23A61DC0008F3E92 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E09D74FB23A61DC0008F3E92 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E09D74FD23A61DC0008F3E92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E09D74FE23A61DC0008F3E92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E09D750123A61DC0008F3E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E09D750323A61DC1008F3E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E09D750623A61DC1008F3E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E09D750823A61DC1008F3E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09D750923A61DC1008F3E92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E09D74C623A616A7008F3E92 /* Frameworks */ = {
+		E09D74F123A61DC0008F3E92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,38 +42,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E09D74C023A616A7008F3E92 = {
+		E09D74EB23A61DC0008F3E92 = {
 			isa = PBXGroup;
 			children = (
-				E09D74CB23A616A7008F3E92 /* BurgerLab */,
-				E09D74CA23A616A7008F3E92 /* Products */,
+				E09D74F623A61DC0008F3E92 /* BurgerLab */,
+				E09D74F523A61DC0008F3E92 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E09D74CA23A616A7008F3E92 /* Products */ = {
+		E09D74F523A61DC0008F3E92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E09D74C923A616A7008F3E92 /* BurgerLab.app */,
+				E09D74F423A61DC0008F3E92 /* BurgerLab.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E09D74CB23A616A7008F3E92 /* BurgerLab */ = {
+		E09D74F623A61DC0008F3E92 /* BurgerLab */ = {
 			isa = PBXGroup;
 			children = (
-				E09D74CC23A616A7008F3E92 /* AppDelegate.h */,
-				E09D74CD23A616A7008F3E92 /* AppDelegate.m */,
-				E09D74CF23A616A7008F3E92 /* SceneDelegate.h */,
-				E09D74D023A616A7008F3E92 /* SceneDelegate.m */,
-				E09D74D223A616A7008F3E92 /* FirstViewController.h */,
-				E09D74D323A616A7008F3E92 /* FirstViewController.m */,
-				E09D74D523A616A7008F3E92 /* SecondViewController.h */,
-				E09D74D623A616A7008F3E92 /* SecondViewController.m */,
-				E09D74D823A616A7008F3E92 /* Main.storyboard */,
-				E09D74DB23A616A8008F3E92 /* Assets.xcassets */,
-				E09D74DD23A616A8008F3E92 /* LaunchScreen.storyboard */,
-				E09D74E023A616A8008F3E92 /* Info.plist */,
-				E09D74E123A616A8008F3E92 /* main.m */,
+				E09D74F723A61DC0008F3E92 /* AppDelegate.h */,
+				E09D74F823A61DC0008F3E92 /* AppDelegate.m */,
+				E09D74FA23A61DC0008F3E92 /* SceneDelegate.h */,
+				E09D74FB23A61DC0008F3E92 /* SceneDelegate.m */,
+				E09D74FD23A61DC0008F3E92 /* ViewController.h */,
+				E09D74FE23A61DC0008F3E92 /* ViewController.m */,
+				E09D750023A61DC0008F3E92 /* Main.storyboard */,
+				E09D750323A61DC1008F3E92 /* Assets.xcassets */,
+				E09D750523A61DC1008F3E92 /* LaunchScreen.storyboard */,
+				E09D750823A61DC1008F3E92 /* Info.plist */,
+				E09D750923A61DC1008F3E92 /* main.m */,
 			);
 			path = BurgerLab;
 			sourceTree = "<group>";
@@ -84,13 +79,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E09D74C823A616A7008F3E92 /* BurgerLab */ = {
+		E09D74F323A61DC0008F3E92 /* BurgerLab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E09D74E523A616A8008F3E92 /* Build configuration list for PBXNativeTarget "BurgerLab" */;
+			buildConfigurationList = E09D750D23A61DC1008F3E92 /* Build configuration list for PBXNativeTarget "BurgerLab" */;
 			buildPhases = (
-				E09D74C523A616A7008F3E92 /* Sources */,
-				E09D74C623A616A7008F3E92 /* Frameworks */,
-				E09D74C723A616A7008F3E92 /* Resources */,
+				E09D74F023A61DC0008F3E92 /* Sources */,
+				E09D74F123A61DC0008F3E92 /* Frameworks */,
+				E09D74F223A61DC0008F3E92 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -98,24 +93,24 @@
 			);
 			name = BurgerLab;
 			productName = BurgerLab;
-			productReference = E09D74C923A616A7008F3E92 /* BurgerLab.app */;
+			productReference = E09D74F423A61DC0008F3E92 /* BurgerLab.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E09D74C123A616A7008F3E92 /* Project object */ = {
+		E09D74EC23A61DC0008F3E92 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = radium.laboratories;
 				TargetAttributes = {
-					E09D74C823A616A7008F3E92 = {
+					E09D74F323A61DC0008F3E92 = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
-			buildConfigurationList = E09D74C423A616A7008F3E92 /* Build configuration list for PBXProject "BurgerLab" */;
+			buildConfigurationList = E09D74EF23A61DC0008F3E92 /* Build configuration list for PBXProject "BurgerLab" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,57 +118,56 @@
 				en,
 				Base,
 			);
-			mainGroup = E09D74C023A616A7008F3E92;
-			productRefGroup = E09D74CA23A616A7008F3E92 /* Products */;
+			mainGroup = E09D74EB23A61DC0008F3E92;
+			productRefGroup = E09D74F523A61DC0008F3E92 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E09D74C823A616A7008F3E92 /* BurgerLab */,
+				E09D74F323A61DC0008F3E92 /* BurgerLab */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E09D74C723A616A7008F3E92 /* Resources */ = {
+		E09D74F223A61DC0008F3E92 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E09D74DF23A616A8008F3E92 /* LaunchScreen.storyboard in Resources */,
-				E09D74DC23A616A8008F3E92 /* Assets.xcassets in Resources */,
-				E09D74DA23A616A7008F3E92 /* Main.storyboard in Resources */,
+				E09D750723A61DC1008F3E92 /* LaunchScreen.storyboard in Resources */,
+				E09D750423A61DC1008F3E92 /* Assets.xcassets in Resources */,
+				E09D750223A61DC0008F3E92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E09D74C523A616A7008F3E92 /* Sources */ = {
+		E09D74F023A61DC0008F3E92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E09D74E223A616A8008F3E92 /* main.m in Sources */,
-				E09D74D723A616A7008F3E92 /* SecondViewController.m in Sources */,
-				E09D74CE23A616A7008F3E92 /* AppDelegate.m in Sources */,
-				E09D74D423A616A7008F3E92 /* FirstViewController.m in Sources */,
-				E09D74D123A616A7008F3E92 /* SceneDelegate.m in Sources */,
+				E09D74FF23A61DC0008F3E92 /* ViewController.m in Sources */,
+				E09D74F923A61DC0008F3E92 /* AppDelegate.m in Sources */,
+				E09D750A23A61DC1008F3E92 /* main.m in Sources */,
+				E09D74FC23A61DC0008F3E92 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E09D74D823A616A7008F3E92 /* Main.storyboard */ = {
+		E09D750023A61DC0008F3E92 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E09D74D923A616A7008F3E92 /* Base */,
+				E09D750123A61DC0008F3E92 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E09D74DD23A616A8008F3E92 /* LaunchScreen.storyboard */ = {
+		E09D750523A61DC1008F3E92 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E09D74DE23A616A8008F3E92 /* Base */,
+				E09D750623A61DC1008F3E92 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -181,7 +175,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E09D74E323A616A8008F3E92 /* Debug */ = {
+		E09D750B23A61DC1008F3E92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +233,7 @@
 			};
 			name = Debug;
 		};
-		E09D74E423A616A8008F3E92 /* Release */ = {
+		E09D750C23A61DC1008F3E92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -291,7 +285,7 @@
 			};
 			name = Release;
 		};
-		E09D74E623A616A8008F3E92 /* Debug */ = {
+		E09D750E23A61DC1008F3E92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -308,7 +302,7 @@
 			};
 			name = Debug;
 		};
-		E09D74E723A616A8008F3E92 /* Release */ = {
+		E09D750F23A61DC1008F3E92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -328,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E09D74C423A616A7008F3E92 /* Build configuration list for PBXProject "BurgerLab" */ = {
+		E09D74EF23A61DC0008F3E92 /* Build configuration list for PBXProject "BurgerLab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E09D74E323A616A8008F3E92 /* Debug */,
-				E09D74E423A616A8008F3E92 /* Release */,
+				E09D750B23A61DC1008F3E92 /* Debug */,
+				E09D750C23A61DC1008F3E92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E09D74E523A616A8008F3E92 /* Build configuration list for PBXNativeTarget "BurgerLab" */ = {
+		E09D750D23A61DC1008F3E92 /* Build configuration list for PBXNativeTarget "BurgerLab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E09D74E623A616A8008F3E92 /* Debug */,
-				E09D74E723A616A8008F3E92 /* Release */,
+				E09D750E23A61DC1008F3E92 /* Debug */,
+				E09D750F23A61DC1008F3E92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E09D74C123A616A7008F3E92 /* Project object */;
+	rootObject = E09D74EC23A61DC0008F3E92 /* Project object */;
 }
