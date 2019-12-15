@@ -13,13 +13,12 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		187EC65C04B8AB648D35ECDA /* libPods-BurgerLabGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8818E9BE652165623F9089F2 /* libPods-BurgerLabGame.a */; };
-		19016AF3352F8D7EFFBA46DD /* libPods-BurgerLabGame-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A0E8AC6BD03841ABE7FF35 /* libPods-BurgerLabGame-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* BurgerLabGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BurgerLabGameTests.m */; };
+		5370A9E77E37175D398ED867 /* libPods-BurgerLabGameFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B43FA648AC1EA35DBB66CF /* libPods-BurgerLabGameFramework.a */; };
 		6505516CC6ECB1C6854117DE /* libPods-BurgerLabGameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3652775B182C57B8D64FC978 /* libPods-BurgerLabGameTests.a */; };
-		C1A6F258AE3F04C5B3FC7AA8 /* libPods-BurgerLabGame-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D50E0998BC2512322795CD /* libPods-BurgerLabGame-tvOS.a */; };
 		E09D752E23A62D4D008F3E92 /* BurgerLabGameFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E09D752C23A62D4D008F3E92 /* BurgerLabGameFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E09D753123A62D4D008F3E92 /* BurgerLabGameFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09D752A23A62D4D008F3E92 /* BurgerLabGameFramework.framework */; };
 		E09D753223A62D4D008F3E92 /* BurgerLabGameFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E09D752A23A62D4D008F3E92 /* BurgerLabGameFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -68,6 +67,7 @@
 		00E356EE1AD99517003FC87E /* BurgerLabGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurgerLabGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* BurgerLabGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BurgerLabGameTests.m; sourceTree = "<group>"; };
+		133CA6AAF376CE1135A3BAFD /* Pods-BurgerLabGameFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerLabGameFramework.debug.xcconfig"; path = "Target Support Files/Pods-BurgerLabGameFramework/Pods-BurgerLabGameFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* BurgerLabGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerLabGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BurgerLabGame/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BurgerLabGame/AppDelegate.m; sourceTree = "<group>"; };
@@ -77,21 +77,17 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BurgerLabGame/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* BurgerLabGame-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BurgerLabGame-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* BurgerLabGame-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BurgerLabGame-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		334296D79F5B0E5EEA2C00FF /* Pods-BurgerLabGameFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerLabGameFramework.release.xcconfig"; path = "Target Support Files/Pods-BurgerLabGameFramework/Pods-BurgerLabGameFramework.release.xcconfig"; sourceTree = "<group>"; };
 		3652775B182C57B8D64FC978 /* libPods-BurgerLabGameTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BurgerLabGameTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39348F0E1D4C35E3AD32A4F8 /* Pods-BurgerLabGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerLabGame.debug.xcconfig"; path = "Target Support Files/Pods-BurgerLabGame/Pods-BurgerLabGame.debug.xcconfig"; sourceTree = "<group>"; };
-		71BCBDAA0A9471DA225C6DB5 /* Pods-BurgerLabGame-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerLabGame-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-BurgerLabGame-tvOSTests/Pods-BurgerLabGame-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		79D1192A7A185261729FEFD4 /* Pods-BurgerLabGame-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerLabGame-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-BurgerLabGame-tvOS/Pods-BurgerLabGame-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		83E2683C96C891BE73E02232 /* Pods-BurgerLabGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerLabGame.release.xcconfig"; path = "Target Support Files/Pods-BurgerLabGame/Pods-BurgerLabGame.release.xcconfig"; sourceTree = "<group>"; };
 		8818E9BE652165623F9089F2 /* libPods-BurgerLabGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BurgerLabGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91A0E8AC6BD03841ABE7FF35 /* libPods-BurgerLabGame-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BurgerLabGame-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D3CBFBFB8AB257DA5145D2 /* Pods-BurgerLabGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerLabGameTests.release.xcconfig"; path = "Target Support Files/Pods-BurgerLabGameTests/Pods-BurgerLabGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7B43FA648AC1EA35DBB66CF /* libPods-BurgerLabGameFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BurgerLabGameFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC8769D9DF9FCE04D9D884A /* Pods-BurgerLabGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerLabGameTests.debug.xcconfig"; path = "Target Support Files/Pods-BurgerLabGameTests/Pods-BurgerLabGameTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D6D50E0998BC2512322795CD /* libPods-BurgerLabGame-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BurgerLabGame-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09D752A23A62D4D008F3E92 /* BurgerLabGameFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BurgerLabGameFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09D752C23A62D4D008F3E92 /* BurgerLabGameFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BurgerLabGameFramework.h; sourceTree = "<group>"; };
 		E09D752D23A62D4D008F3E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4CCC549ED69241CAD62ACB2 /* Pods-BurgerLabGame-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerLabGame-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-BurgerLabGame-tvOSTests/Pods-BurgerLabGame-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E7B0C3C1BA26C2D174CC270E /* Pods-BurgerLabGame-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerLabGame-tvOS.release.xcconfig"; path = "Target Support Files/Pods-BurgerLabGame-tvOS/Pods-BurgerLabGame-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -118,7 +114,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1A6F258AE3F04C5B3FC7AA8 /* libPods-BurgerLabGame-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +121,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19016AF3352F8D7EFFBA46DD /* libPods-BurgerLabGame-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5370A9E77E37175D398ED867 /* libPods-BurgerLabGameFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,9 +172,8 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				8818E9BE652165623F9089F2 /* libPods-BurgerLabGame.a */,
-				D6D50E0998BC2512322795CD /* libPods-BurgerLabGame-tvOS.a */,
-				91A0E8AC6BD03841ABE7FF35 /* libPods-BurgerLabGame-tvOSTests.a */,
 				3652775B182C57B8D64FC978 /* libPods-BurgerLabGameTests.a */,
+				A7B43FA648AC1EA35DBB66CF /* libPods-BurgerLabGameFramework.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -189,12 +183,10 @@
 			children = (
 				39348F0E1D4C35E3AD32A4F8 /* Pods-BurgerLabGame.debug.xcconfig */,
 				83E2683C96C891BE73E02232 /* Pods-BurgerLabGame.release.xcconfig */,
-				79D1192A7A185261729FEFD4 /* Pods-BurgerLabGame-tvOS.debug.xcconfig */,
-				E7B0C3C1BA26C2D174CC270E /* Pods-BurgerLabGame-tvOS.release.xcconfig */,
-				E4CCC549ED69241CAD62ACB2 /* Pods-BurgerLabGame-tvOSTests.debug.xcconfig */,
-				71BCBDAA0A9471DA225C6DB5 /* Pods-BurgerLabGame-tvOSTests.release.xcconfig */,
 				CDC8769D9DF9FCE04D9D884A /* Pods-BurgerLabGameTests.debug.xcconfig */,
 				95D3CBFBFB8AB257DA5145D2 /* Pods-BurgerLabGameTests.release.xcconfig */,
+				133CA6AAF376CE1135A3BAFD /* Pods-BurgerLabGameFramework.debug.xcconfig */,
+				334296D79F5B0E5EEA2C00FF /* Pods-BurgerLabGameFramework.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -302,7 +294,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "BurgerLabGame-tvOS" */;
 			buildPhases = (
-				E73E94DF6001F51FA33D8256 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -322,7 +313,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "BurgerLabGame-tvOSTests" */;
 			buildPhases = (
-				F4A95497AA97B3E64D0A70E8 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -341,6 +331,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E09D753623A62D4D008F3E92 /* Build configuration list for PBXNativeTarget "BurgerLabGameFramework" */;
 			buildPhases = (
+				D733793CC23555106FBBF6FB /* [CP] Check Pods Manifest.lock */,
 				E09D752523A62D4D008F3E92 /* Headers */,
 				E09D752623A62D4D008F3E92 /* Sources */,
 				E09D752723A62D4D008F3E92 /* Frameworks */,
@@ -520,7 +511,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E73E94DF6001F51FA33D8256 /* [CP] Check Pods Manifest.lock */ = {
+		D733793CC23555106FBBF6FB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -535,29 +526,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BurgerLabGame-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F4A95497AA97B3E64D0A70E8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BurgerLabGame-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BurgerLabGameFramework-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -763,7 +732,6 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79D1192A7A185261729FEFD4 /* Pods-BurgerLabGame-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -791,7 +759,6 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7B0C3C1BA26C2D174CC270E /* Pods-BurgerLabGame-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -819,7 +786,6 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4CCC549ED69241CAD62ACB2 /* Pods-BurgerLabGame-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -846,7 +812,6 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71BCBDAA0A9471DA225C6DB5 /* Pods-BurgerLabGame-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -972,6 +937,7 @@
 		};
 		E09D753423A62D4D008F3E92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133CA6AAF376CE1135A3BAFD /* Pods-BurgerLabGameFramework.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1004,6 +970,7 @@
 		};
 		E09D753523A62D4D008F3E92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 334296D79F5B0E5EEA2C00FF /* Pods-BurgerLabGameFramework.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
