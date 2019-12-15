@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56DB77894E2DB67E5C564739 /* libPods-BurgerLab.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1545B65B209FC6DA041E6B /* libPods-BurgerLab.a */; };
 		E09D74F923A61DC0008F3E92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D74F823A61DC0008F3E92 /* AppDelegate.m */; };
 		E09D74FC23A61DC0008F3E92 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D74FB23A61DC0008F3E92 /* SceneDelegate.m */; };
 		E09D74FF23A61DC0008F3E92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D74FE23A61DC0008F3E92 /* ViewController.m */; };
@@ -14,9 +15,27 @@
 		E09D750423A61DC1008F3E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09D750323A61DC1008F3E92 /* Assets.xcassets */; };
 		E09D750723A61DC1008F3E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09D750523A61DC1008F3E92 /* LaunchScreen.storyboard */; };
 		E09D750A23A61DC1008F3E92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D750923A61DC1008F3E92 /* main.m */; };
+		E09D754523A635FD008F3E92 /* BurgerLabGameFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09D754423A635FD008F3E92 /* BurgerLabGameFramework.framework */; };
+		E09D754623A635FD008F3E92 /* BurgerLabGameFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E09D754423A635FD008F3E92 /* BurgerLabGameFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E09D754723A635FD008F3E92 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E09D754623A635FD008F3E92 /* BurgerLabGameFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		16098B7920C7ED1EFB7A3997 /* Pods-BurgerLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerLab.release.xcconfig"; path = "Target Support Files/Pods-BurgerLab/Pods-BurgerLab.release.xcconfig"; sourceTree = "<group>"; };
+		AF1545B65B209FC6DA041E6B /* libPods-BurgerLab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BurgerLab.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09D74F423A61DC0008F3E92 /* BurgerLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09D74F723A61DC0008F3E92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E09D74F823A61DC0008F3E92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +48,8 @@
 		E09D750623A61DC1008F3E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E09D750823A61DC1008F3E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E09D750923A61DC1008F3E92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E09D754423A635FD008F3E92 /* BurgerLabGameFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BurgerLabGameFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11D376EB749FA69B76A4785 /* Pods-BurgerLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerLab.debug.xcconfig"; path = "Target Support Files/Pods-BurgerLab/Pods-BurgerLab.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +57,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E09D754523A635FD008F3E92 /* BurgerLabGameFramework.framework in Frameworks */,
+				56DB77894E2DB67E5C564739 /* libPods-BurgerLab.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C348CA805D58370F6DFE256 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E11D376EB749FA69B76A4785 /* Pods-BurgerLab.debug.xcconfig */,
+				16098B7920C7ED1EFB7A3997 /* Pods-BurgerLab.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../BurgerLabGame/AppContainerPodfile/Pods;
+			sourceTree = "<group>";
+		};
 		E09D74EB23A61DC0008F3E92 = {
 			isa = PBXGroup;
 			children = (
 				E09D74F623A61DC0008F3E92 /* BurgerLab */,
 				E09D74F523A61DC0008F3E92 /* Products */,
+				E09D754323A635FD008F3E92 /* Frameworks */,
+				1C348CA805D58370F6DFE256 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +111,15 @@
 			path = BurgerLab;
 			sourceTree = "<group>";
 		};
+		E09D754323A635FD008F3E92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E09D754423A635FD008F3E92 /* BurgerLabGameFramework.framework */,
+				AF1545B65B209FC6DA041E6B /* libPods-BurgerLab.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E09D750D23A61DC1008F3E92 /* Build configuration list for PBXNativeTarget "BurgerLab" */;
 			buildPhases = (
+				472E858DCBB7852F0BE6D6F5 /* [CP] Check Pods Manifest.lock */,
 				E09D74F023A61DC0008F3E92 /* Sources */,
 				E09D74F123A61DC0008F3E92 /* Frameworks */,
 				E09D74F223A61DC0008F3E92 /* Resources */,
+				E09D754723A635FD008F3E92 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +186,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		472E858DCBB7852F0BE6D6F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BurgerLab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E09D74F023A61DC0008F3E92 /* Sources */ = {
@@ -287,6 +358,7 @@
 		};
 		E09D750E23A61DC1008F3E92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11D376EB749FA69B76A4785 /* Pods-BurgerLab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +376,7 @@
 		};
 		E09D750F23A61DC1008F3E92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16098B7920C7ED1EFB7A3997 /* Pods-BurgerLab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

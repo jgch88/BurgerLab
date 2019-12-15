@@ -7,4 +7,7 @@
    <FileRef
       location = "group:BurgerLab/BurgerLab.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:../BurgerLabGame/AppContainerPodfile/Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>
