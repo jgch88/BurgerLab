@@ -23,9 +23,8 @@
 		E09D753F23A62F6E008F3E92 /* BurgerLabGameViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E09D753D23A62F6E008F3E92 /* BurgerLabGameViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E09D754023A62F6E008F3E92 /* BurgerLabGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D753E23A62F6E008F3E92 /* BurgerLabGameViewController.m */; };
 		E09D754223A631DC008F3E92 /* libPods-BurgerLabGame.a in Sources */ = {isa = PBXBuildFile; fileRef = 8818E9BE652165623F9089F2 /* libPods-BurgerLabGame.a */; };
-		E09D757423A64F57008F3E92 /* app.json in Resources */ = {isa = PBXBuildFile; fileRef = E09D756C23A64F57008F3E92 /* app.json */; };
-		E09D757523A64F57008F3E92 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E09D757223A64F57008F3E92 /* logo.png */; };
-		E09D757623A64F57008F3E92 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = E09D757323A64F57008F3E92 /* main.jsbundle */; };
+		E09D757923A654C1008F3E92 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = E09D757823A654C1008F3E92 /* assets */; };
+		E09D757A23A65574008F3E92 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = E09D757323A64F57008F3E92 /* main.jsbundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +59,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* BurgerLabGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurgerLabGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* BurgerLabGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BurgerLabGameTests.m; sourceTree = "<group>"; };
@@ -89,9 +87,8 @@
 		E09D753A23A62F0D008F3E92 /* BurgerLabGameAppView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BurgerLabGameAppView.m; sourceTree = "<group>"; };
 		E09D753D23A62F6E008F3E92 /* BurgerLabGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BurgerLabGameViewController.h; sourceTree = "<group>"; };
 		E09D753E23A62F6E008F3E92 /* BurgerLabGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BurgerLabGameViewController.m; sourceTree = "<group>"; };
-		E09D756C23A64F57008F3E92 /* app.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = app.json; sourceTree = "<group>"; };
-		E09D757223A64F57008F3E92 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		E09D757323A64F57008F3E92 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = ../../main.jsbundle; sourceTree = "<group>"; };
+		E09D757823A654C1008F3E92 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../../assets; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -145,7 +142,6 @@
 		13B07FAE1A68108700A75B9A /* BurgerLabGame */ = {
 			isa = PBXGroup;
 			children = (
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -219,7 +215,7 @@
 		E09D752B23A62D4D008F3E92 /* BurgerLabGameFramework */ = {
 			isa = PBXGroup;
 			children = (
-				E09D756B23A64F57008F3E92 /* assets */,
+				E09D757823A654C1008F3E92 /* assets */,
 				E09D757323A64F57008F3E92 /* main.jsbundle */,
 				E09D752C23A62D4D008F3E92 /* BurgerLabGameFramework.h */,
 				E09D752D23A62D4D008F3E92 /* Info.plist */,
@@ -229,56 +225,6 @@
 				E09D753E23A62F6E008F3E92 /* BurgerLabGameViewController.m */,
 			);
 			path = BurgerLabGameFramework;
-			sourceTree = "<group>";
-		};
-		E09D756B23A64F57008F3E92 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				E09D756C23A64F57008F3E92 /* app.json */,
-				E09D756D23A64F57008F3E92 /* node_modules */,
-			);
-			name = assets;
-			path = ../../assets;
-			sourceTree = "<group>";
-		};
-		E09D756D23A64F57008F3E92 /* node_modules */ = {
-			isa = PBXGroup;
-			children = (
-				E09D756E23A64F57008F3E92 /* react-native */,
-			);
-			path = node_modules;
-			sourceTree = "<group>";
-		};
-		E09D756E23A64F57008F3E92 /* react-native */ = {
-			isa = PBXGroup;
-			children = (
-				E09D756F23A64F57008F3E92 /* Libraries */,
-			);
-			path = "react-native";
-			sourceTree = "<group>";
-		};
-		E09D756F23A64F57008F3E92 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				E09D757023A64F57008F3E92 /* NewAppScreen */,
-			);
-			path = Libraries;
-			sourceTree = "<group>";
-		};
-		E09D757023A64F57008F3E92 /* NewAppScreen */ = {
-			isa = PBXGroup;
-			children = (
-				E09D757123A64F57008F3E92 /* components */,
-			);
-			path = NewAppScreen;
-			sourceTree = "<group>";
-		};
-		E09D757123A64F57008F3E92 /* components */ = {
-			isa = PBXGroup;
-			children = (
-				E09D757223A64F57008F3E92 /* logo.png */,
-			);
-			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -423,9 +369,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E09D757623A64F57008F3E92 /* main.jsbundle in Resources */,
-				E09D757523A64F57008F3E92 /* logo.png in Resources */,
-				E09D757423A64F57008F3E92 /* app.json in Resources */,
+				E09D757A23A65574008F3E92 /* main.jsbundle in Resources */,
+				E09D757923A654C1008F3E92 /* assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
