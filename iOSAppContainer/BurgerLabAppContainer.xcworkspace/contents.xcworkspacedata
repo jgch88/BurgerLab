@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../BurgerLabGame/ios/BurgerLabGame.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:BurgerLab/BurgerLab.xcodeproj">
    </FileRef>
 </Workspace>
