@@ -5,7 +5,7 @@
 @implementation BurgerLabGameAppView
 -(BurgerLabGameAppView *) init {
   RCTRootView *rv = [[RCTRootView alloc]
-  initWithBundleURL: [[NSBundle bundleForClass:BurgerLabGameViewController.class] URLForResource:@"main" withExtension:@"jsbundle"] moduleName:@"BurgerLabGameFramework" initialProperties:nil launchOptions:nil];
+  initWithBundleURL: [[NSBundle bundleForClass:BurgerLabGameViewController.class] URLForResource:@"main" withExtension:@"jsbundle"] moduleName:@"BurgerLabGame" initialProperties:nil launchOptions:nil];
   self.rootView = rv;
   return self;
 }

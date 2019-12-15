@@ -21,7 +21,7 @@
     [super viewDidLoad];
     RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:nil];
     RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
-                                                     moduleName:@"BurgerLabGameFramework"
+                                                     moduleName:@"BurgerLabGame"
                                               initialProperties:nil];
 
     self.view = rootView;
